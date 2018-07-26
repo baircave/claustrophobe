@@ -8,3 +8,39 @@ body, html {
   display: flex;
   justify-content: center;
 }
+
+.buttons-etc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.buttons-etc button {
+  font-size: 50px;
+
+  background: none;
+  border-radius: 8px;
+}
+
+.buttons-etc h3 {
+  font-family: sans-serif;
+  font-size: 40px;
+  margin: 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
