@@ -1,12 +1,28 @@
 body, html {
   height: 100%;
+  background: black;
+  color: white;
+  font-family: 'Merienda', cursive;
 }
 
 .canvas-wrapper {
-  margin-top: 100px;
+  position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+.instructions {
+  position: absolute;
+  font-size: 20px;
+  width: 300px;
+  margin-left: -450px;
+  margin-top: 200px;
+}
+
+#game-canvas {
+  border-radius: 14px;
+  border: 3px solid white;
 }
 
 .buttons-etc {
@@ -20,13 +36,12 @@ body, html {
 
 .buttons-etc button {
   font-size: 50px;
-
-  background: none;
+  background: white;
   border-radius: 8px;
 }
 
 .buttons-etc h3 {
-  font-family: sans-serif;
+  font-family: 'Merienda', cursive;
   font-size: 40px;
   margin: 0;
 }
@@ -43,4 +58,36 @@ button:focus {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+h1 {
+  font-family: 'Merienda', cursive;
+  font-size: 40px;
+  margin: 10px;
+  margin-top: 20px;
+}
+
+h3 {
+  font-family: 'Merienda', cursive;
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+img {
+  display: none;
+}
+
+.socials {
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.socials img {
+  display: block;
+  width: 40px;
+  height: 40px;
+  filter: invert(100%);
 }
