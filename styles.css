@@ -44,9 +44,17 @@ body, html {
 }
 
 .buttons-etc button {
+  border: 2px solid #bcbcbc;
+  color: #bcbcbc;
   font-size: 50px;
-  background: white;
+  background: none;
   border-radius: 8px;
+}
+
+.buttons-etc button:hover {
+  color: white;
+  border: 2px solid white;
+  transition: 0.5s;
 }
 
 .buttons-etc h3 {
@@ -99,4 +107,49 @@ img {
   width: 40px;
   height: 40px;
   filter: invert(100%);
+}
+
+.level-select-wrapper {
+  position: fixed;
+  top: calc(50% - 100px);
+  margin-left: 420px;
+}
+
+.level-select-wrapper {
+  text-align: center;
+}
+
+.level-select {
+  display: flex;
+  flex-wrap: wrap;
+  width: 180px;
+}
+
+.level-select button {
+  font-family: inherit;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border-radius: 5px;
+  background: none;
+  border: 2px solid #bcbcbc;
+  color: #bcbcbc;
+  font-size: 18px;
+}
+
+.level-select button:hover {
+  border: 2px solid white;
+  /* background: rgba(0,255,255,0.5); */
+  color: white;
+  transition: 0.5s;
+}
+
+button.current-level {
+  border: 2px solid white;
+  background: white;
+  color: black;
+}
+
+button.current-level:hover {
+  color: black;
 }

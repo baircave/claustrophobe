@@ -1,7 +1,7 @@
-# slideR
+# claustrophobe
 
 ### Summary and MVPs
-slideR is a simple puzzle game designed to test the player's ability to slide a designated block to the exit in the least number of moves.
+claustrophobe is a simple puzzle game designed to challenge the player's ability to slide the designated block (Klaus) to the exit in the least number of moves.
 
 * 6 by 6 board
 * Vertically and horizontally aligned blocks
@@ -12,7 +12,7 @@ slideR is a simple puzzle game designed to test the player's ability to slide a 
 * Reset button
 
 ### Technologies
-This game uses vanilla JavaScript, HTML (canvas), and CSS to handle the logic and UI.
+This game uses vanilla JavaScript, HTML5 (canvas), and CSS to handle the logic and UI.
 
 
 ### Timeline
