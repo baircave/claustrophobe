@@ -19,7 +19,7 @@ In order to make the block elements on the canvas drag but not overlap, I used a
 
 In addition, because the game logic necessitates alignment with a 6 by 6 grid, I need to 'snap' blocks when the player releases them. By rounding the x and y positions to the nearest 100 pixels and only performing an actual move when a block reaches a new square, I prevent the move counter from incrementing when a dragged block is released in the same location in which it started:
 
-```
+```javascript
 //makes sure blocks only ever reposition on the 6x6 grid
 snapToGrid() {
   let roundedX = Math.round(this.x / 100) * 100;
