@@ -5,6 +5,8 @@ body, html {
   font-family: 'Merienda', cursive;
 }
 
+@import url(https://fonts.googleapis.com/css?family=Merienda);
+
 .canvas-wrapper {
   position: relative;
   width: 100%;
