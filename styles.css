@@ -27,7 +27,7 @@ body, html {
   width: 10px;
   height: 100px;
   background: black;
-  margin-left: 305px;
+  margin-left: 610px;
   margin-top: 203px;
 }
 
@@ -130,7 +130,7 @@ img {
 .level-select-wrapper {
   position: fixed;
   top: calc(50% - 100px);
-  margin-left: 420px;
+  margin-left: 820px;
 }
 
 .level-select-wrapper {
